@@ -154,19 +154,6 @@ onMounted(() => {
       </a-col>
     </a-row>
     <br />
-    <div style="margin-bottom: 16px">
-      yupi：你能体会手写一句 3000 行的 SQL、牵一发而动全身的恐惧么？
-    </div>
-    <a-row justify="center">
-      <a-space>
-        作者：<a href="https://github.com/liyupi" target="_blank">鱼皮</a>
-        <a-divider type="vertical" />
-        <a href="https://github.com/liyupi/sql-generator" target="_blank">
-          <github-outlined />
-          项目已开源，欢迎 star
-        </a>
-      </a-space>
-    </a-row>
     <a-drawer
       v-model:visible="drawerVisible"
       title="调用树"
